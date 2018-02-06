@@ -1,0 +1,10 @@
+project                          = cmake_lib
+description                      = cmake based c++ library project
+type                             = cmake_lib
+version                          = 0.0.1
+build_file                       = CMakeLists.txt
+
+# commands
+insert_library                  = LIBS += ... >> Tupfile
+insert_include_directory        = INCLUDE_DIRS += ... >> Tupfile
+bump_version                    = \d+\.\d+\.\d+ >> version
