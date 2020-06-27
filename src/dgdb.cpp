@@ -37,7 +37,7 @@ private:
 class Parser {
 
 public:
-  static void parse(char* gdb_gdb_out, std::unordered_map<std::string, std::string>& result);
+  static void parse(char* gdb_out, std::unordered_map<std::string, std::string>& result);
 };
 
 enum class Tag {equal_sign, eof, string, c_string, right_bracket, left_bracket, right_key,
@@ -154,7 +154,7 @@ void GdbManager::command(const char* com, char gdb_out[]) const {
 ////////////// Parser implementation ///////////////
 //////////////////////////////////////////////////////////
 
-void Parser::parse(char* gdb_gdb_out, unordered_map<string, string>& result){
+void Parser::parse(char* gdb_out, unordered_map<string, string>& result){
 }
 
 //////////////////////////////////////////////////////////

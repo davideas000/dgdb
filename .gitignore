@@ -2,3 +2,5 @@
 build/
 .dproject/
 a.out
+*.cir
+TODO
